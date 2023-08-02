@@ -138,7 +138,7 @@ describe("CDK Construct", () => {
           Name: "NextLambdaCache",
           ParametersInCacheKeyAndForwardedToOrigin: {
             CookiesConfig: {
-              CookieBehavior: "all"
+              CookieBehavior: "none"
             }
           }
         }

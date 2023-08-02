@@ -34,12 +34,12 @@ const outputsList = [
 const defaults = {
   description: "AWS Lambda Component",
   memory: 512,
-  timeout: 10,
+  timeout: 30,
   code: process.cwd(),
   bucket: undefined,
   shims: [],
   handler: "handler.hello",
-  runtime: "nodejs10.x",
+  runtime: "nodejs14.x",
   env: {},
   region: "us-east-1",
   tags: undefined

@@ -412,7 +412,7 @@ export class NextJsLambdaApp extends Construct {
           enableAcceptEncodingBrotli: true,
           enableAcceptEncodingGzip: true,
           cookiesConfig: {
-            cookieBehavior: "all"
+            cookieBehavior: "none"
           },
           headersConfig: {
             headerBehavior: "whitelist",
