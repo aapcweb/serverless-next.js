@@ -653,7 +653,7 @@ class NextjsComponent extends Component {
               policy
             },
         memory: readLambdaInputValue("memory", "apiLambda", 512) as number,
-        timeout: readLambdaInputValue("timeout", "apiLambda", 10) as number,
+        timeout: readLambdaInputValue("timeout", "apiLambda", 30) as number,
         runtime: readLambdaInputValue(
           "runtime",
           "apiLambda",
@@ -723,7 +723,7 @@ class NextjsComponent extends Component {
               policy
             },
         memory: readLambdaInputValue("memory", "imageLambda", 512) as number,
-        timeout: readLambdaInputValue("timeout", "imageLambda", 10) as number,
+        timeout: readLambdaInputValue("timeout", "imageLambda", 30) as number,
         runtime: readLambdaInputValue(
           "runtime",
           "imageLambda",
@@ -786,7 +786,7 @@ class NextjsComponent extends Component {
             policy
           },
       memory: readLambdaInputValue("memory", "defaultLambda", 512) as number,
-      timeout: readLambdaInputValue("timeout", "defaultLambda", 10) as number,
+      timeout: readLambdaInputValue("timeout", "defaultLambda", 30) as number,
       runtime: readLambdaInputValue(
         "runtime",
         "defaultLambda",

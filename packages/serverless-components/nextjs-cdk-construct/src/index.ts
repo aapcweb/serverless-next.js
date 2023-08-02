@@ -274,7 +274,7 @@ export class NextJSLambdaEdge extends Construct {
             )
           : cloudfront.CacheHeaderBehavior.none(),
         cookieBehavior: {
-          behavior: props.whiteListedCookies?.length ? "whitelist" : "none",
+          behavior: props.whiteListedCookies?.length ? "whitelist" : "all",
           cookies: props.whiteListedCookies
         },
         defaultTtl: Duration.seconds(0),

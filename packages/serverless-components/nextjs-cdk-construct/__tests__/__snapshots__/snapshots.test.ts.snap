@@ -1234,7 +1234,7 @@ Object {
           },
           "ParametersInCacheKeyAndForwardedToOrigin": Object {
             "CookiesConfig": Object {
-              "CookieBehavior": "none",
+              "CookieBehavior": "all",
             },
             "EnableAcceptEncodingBrotli": true,
             "EnableAcceptEncodingGzip": true,
@@ -2983,7 +2983,7 @@ Object {
           },
           "ParametersInCacheKeyAndForwardedToOrigin": Object {
             "CookiesConfig": Object {
-              "CookieBehavior": "none",
+              "CookieBehavior": "all",
             },
             "EnableAcceptEncodingBrotli": true,
             "EnableAcceptEncodingGzip": true,
